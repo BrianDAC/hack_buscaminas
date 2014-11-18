@@ -14,6 +14,7 @@ function calcularMinasAdyacentes(tablero){ //NO HE PROBADO TODAVIA!
               cont++;
           }
         }
+        if (tablero[i][j]!=undefined)
         tablero[i][j]=cont;
       }
     }
